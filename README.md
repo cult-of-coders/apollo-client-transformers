@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/cult-of-coders/apollo-client-transformers.svg?branch=master)](https://travis-ci.org/cult-of-coders/apollo-client-transformers)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-You have scalars, but you receive them serialized on the client and you don't really want to do the deserialisation in your React components.
+This package is useful for when you have scalars, but you receive them serialized on the client and you don't really want to do the deserialisation in your view layer.
 
 ## Install
 
