@@ -5,6 +5,14 @@
 
 You have scalars, but you receive them serialized on the client and you don't really want to do the deserialisation in your React components.
 
+## Install
+
+```
+npm i -S apollo-client-transformers
+```
+
+## Usage
+
 ```js
 import { createTransformerLink } from 'apollo-client-transformers';
 

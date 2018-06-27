@@ -3,6 +3,7 @@ language: node_js
 node_js:
 - "8"
 install:
+- npm install apollo-link@1.2.2 graphql@4.16.3
 - npm install -g coveralls
 - npm install
 
