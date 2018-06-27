@@ -1,7 +1,7 @@
 {
   "name": "apollo-client-transformers",
   "version": "0.1.0",
-  "description": "Bringing the ability to use Scalars in Apollo Client",
+  "description": "Bringing the ability to parse data using Apollo Client",
   "main": "dist/index.js",
   "repository": {
     "type": "git",

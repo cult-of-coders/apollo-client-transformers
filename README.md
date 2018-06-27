@@ -16,12 +16,12 @@ const DateTransformer = {
 
 const transformers = {
   User: {
-    createdAt: DateScalar,
+    createdAt: DateTransformer,
   },
 };
 
-const link = createTransformerLink(transformers);
+const transformerLink = createTransformerLink(transformers);
 
 // You can now concatenate it with your http link before creating the client like so:
-const enhancedHttpLink = httpLink.concat(link);
+const enhancedHttpLink = transformerLink.concat(httpLink);
 ```
