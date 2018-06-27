@@ -8,13 +8,13 @@ This package is useful for when you have scalars, but you receive them serialize
 ## Install
 
 ```
-npm i -S apollo-client-transformers
+npm i -S apollo-client-transform
 ```
 
 ## Usage
 
 ```js
-import { createTransformerLink } from 'apollo-client-transformers';
+import { createTransformerLink } from 'apollo-client-transform';
 
 const DateTransformer = {
   parseValue(time) {
