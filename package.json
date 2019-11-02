@@ -1,6 +1,6 @@
 {
   "name": "apollo-client-transform",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bringing the ability to parse data using Apollo Client",
   "main": "dist/index.js",
   "repository": {
