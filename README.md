@@ -33,3 +33,19 @@ const transformerLink = createTransformerLink(transformers);
 // You can now concatenate it with your http link before creating the client like so:
 const enhancedHttpLink = transformerLink.concat(httpLink);
 ```
+
+## Usage with subscriptions
+
+```js
+import { createTransformerLink, isSubscription } from "apollo-client-transform";
+import { split } from "apollo-link";
+
+...
+
+const link = split(({ query }) => isSubscription(query), wsLink, httpLink);
+
+const client = new ApolloClient({
+  ...
+  link: transformerLink.concat(link)
+});
+```
